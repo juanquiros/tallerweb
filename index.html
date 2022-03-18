@@ -3,29 +3,40 @@
 <head>
     <meta charset="utf-8">
 	<title>Login - Taler de Aplicaciones Web</title>
-    
+    <link rel="icon" href="img/fabicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
    <header>
-       <h1>VideoTrends</h1>
+       <a href="/"><img src="img/VideoTrend.png" alt="VideoTrend">
+       <h1>VideoTrend</h1></a>
        <h3>Mira tus videos de YouTube como quieras</h3>
    </header>
-   <nav><a href="">Crear tu cuenta</a>|<a href="">Olvide mi contraseña</a>|<a href="">Acerca de Nosotros</a></nav>
-   <div class="row">
+   <nav><a href="" target="_blank">Crear tu cuenta</a>|
+    <a href="" target="_blank">Olvide mi contraseña</a>|
+    <a href="" target="_blank">Acerca de Nosotros</a></nav>
+   <div class="row login-row">
         <article class="item">
-                <form action="POST">
-                    <input id="email" type="email">
-                    <label for="email">E-mail</label>
-                    <input id="password" type="password">
-                    <label for="password">Password</label>
-                    <button type="submit">Iniciar Sesión</button>
+                <form action="" method="post">
+                    <div class="form-item">
+                        <input id="email" type="email" required>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="form-item">
+                        <input id="password" type="password" minlength="8" required>
+                        <label for="password" >Contraseña</label>
+                    </div>
+                    <div class="form-item">
+                        <button type="submit">Iniciar Sesión</button>
+                    </div>
                 </form>
-                <hr>
-                <a href="registro.html"><button>Crear una cuenta</button></a>
+                <div>
+                    <hr>
+                    <a href="#"><button>Crear una cuenta</button></a>
+                </div>
             </article>
         <aside class="item"></aside>
     </div>  
-   <footer><h2>Youtube - U.G.D. - Campus Virtual</h2></footer>
+   <footer><h2>YouTube - U.G.D. - Campus Virtual</h2></footer>
 </body>
 </html>
