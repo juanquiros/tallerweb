@@ -1,0 +1,31 @@
+.contenido-img .item img{
+    width: 100px;
+    height: 100px;    
+}
+
+.contenido-img .item{
+    margin-left: 1em;
+    padding-bottom: 0;
+    max-width: 100px;
+
+}
+
+.contenido-img{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+}
+table{
+    margin-top: 2em;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}

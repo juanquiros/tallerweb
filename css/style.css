@@ -1,29 +1,10 @@
 
 
-.item{
-    margin-left: 1em;
-    padding-bottom: 0;
-}
-
-.contenido-img{
-    display: flex;
-    flex-direction: row;
-}
-table{
-    margin-top: 2em;
-}
 caption{
     margin-bottom: 0.5em;
 }
 
-table, th, td {
-    border: 1px solid black;
-  }
-thead{
-    display: table-header-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
+
 header img{
     height: 40px;
     width: 40px;
@@ -59,19 +40,8 @@ header a:hover{
     color:rgb(156, 11, 11);
     text-shadow: 00.2em 0.2em 0.2em rgb(0, 0, 0, 0.2);
 }
-aside{
-     
-    min-width: 330px;
-    max-width: 330px;
-    max-height: 390px;
-    min-height: 390px;/*
-    background-image:url('../img/smartphone.png');
-    background-position: center;
-    background-size:contain;
-    background-repeat: no-repeat;*/
-    
-}
-img{
+
+aside img{
     width: 330px;
     height: 390px;
 }
@@ -82,23 +52,9 @@ img{
     justify-content: center;
     max-width: 800px;    
 }
-.registro-row{
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    max-width: 800px; 
-    margin-bottom: 2em;
-}
-.registro-row > aside{
-    position: sticky;
-    top: 10px;
-}
 
 
-.login-row{
-    margin-bottom: 2em;
-}
+
 .item{
     flex-grow: 4;
 }
@@ -185,53 +141,6 @@ section hr{
     width: 370px;
     margin-left: -20px;
 }
-.registro-row  .form-item{
-    flex-direction: row;
-    justify-content: baseline;   
-    padding-left: 1em; 
-}
-.registro-row label{
-    width: 200px;
-    margin-left: 0;
-}
-
-.registro-row input, select{
-    width: 200px;
-    min-width: 200px;
-    max-width: 200px;
-}
-.registro-row section{
-    width: 400px;
-    max-width: 400px;
-}
-#genero input{
-    width: 10px;
-    min-width:unset;
-    box-shadow: 0 0;
-}
-#genero label{
-    width: auto;
-    margin-right: 0.5em;
-}
-#genero{
-    display: flex;
-    align-content: center;
-}
-#coordenadas input{
-    width: 30%;
-    min-width: unset;
-
-}
-#coordenadas label{
-    width: 10%;
-    margin-right: 0.5em;
-}
-#coordenadas{
-    min-width: 200px;
-    max-width: 200px;
-    display: flex;
-    align-content: center;
-}
 @media (max-width: 800px) {
     .row {
         flex-direction:column-reverse;
@@ -244,11 +153,14 @@ section hr{
     section{
         height: 350px;
     }
-    .registro-row > aside{
-        position: relative;
-        top: 10px;
-    }
     section{
         height: 100%;
     }
   }
+ 
+
+
+input:hover,select:hover{
+    border: 2px solid rgb(223, 21, 21);
+    
+}
