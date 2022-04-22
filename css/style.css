@@ -164,3 +164,4 @@ input:hover,select:hover{
     border: 2px solid rgb(223, 21, 21);
     
 }
+#map { height: 180px; }
