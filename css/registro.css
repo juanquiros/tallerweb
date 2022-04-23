@@ -72,8 +72,12 @@
         flex-direction: column-reverse;
     }
 }
-    .registro-row > aside{
-        position: sticky;
-       top: 10px;
-       height: 500px;
-    }
+.registro-row > aside{
+    position: sticky;
+    top: 10px;
+    height: 500px;
+}
+#map{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
