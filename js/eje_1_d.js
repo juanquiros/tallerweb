@@ -3,7 +3,7 @@ var user={
     password:''
 }
 
-function login(){
+function crearObjetoUsuario(){
     
     var valido = document.getElementById('password').validity.valid;
     if(valido){
@@ -12,6 +12,7 @@ function login(){
 
         alert(JSON.stringify(this.user).replace(/}/g,'').replace(/{/g,'').replace(/"/g,'').replace(/,/g,' '));
     }else{
+        
         console.log('email:' + document.getElementById('email').validationMessage);
         console.log('password:' + document.getElementById('password').validationMessage);
     }
