@@ -12,7 +12,7 @@ function login(event){
       .done(function( msg ) {
         alert( "Respuesta del login.php: " + msg );
       }).fail(function(err){
-        console.log(err);
+        console.log(err.statusText);
       });
   }
     

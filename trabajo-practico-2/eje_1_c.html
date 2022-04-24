@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1) c.</title>
+</head>
+<body>
+    <div class="div-form">
+        <h1>Ejercicio 1) c.</h1>
+        <div class="form">
+            <label for="texto">Nombre de usuario</label>
+            <div class="form-item">
+                <input type="text" name="" id="texto" placeholder="Almenos 6 letras seguidas de al menos 2 dígitos" oninput="hiddenSpan()" >
+            </div>
+            <span id="show_span"></span>
+            <div class="form-item">
+                <button onclick="valid_user(texto)">Validar nombre de usuario</button>
+            </div>  
+
+        </div>
+    </div>
+    <script src="js/eje_1_c.js"></script>
+</body>
+</html>
