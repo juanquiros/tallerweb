@@ -62,7 +62,7 @@ const start = async function(consulta = null) {
         document.getElementById('pais').value = label[label.length -1];
         document.getElementById('provincia').value = label[label.length -3];
         document.getElementById('ciudad').value = label[label.length -6];
-        document.getElementById('calle').value = label[1];
+        document.getElementById('calle').value = label[label.length -9];
         if(!document.getElementById('pais').value){
           var x = document.getElementById("pais");
           var option = document.createElement("option");
